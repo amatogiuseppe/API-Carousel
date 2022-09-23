@@ -5,10 +5,10 @@ import '../../styles/Home.css'
 
 function Home() {
   return (
-    <>
+    <div className='container'>
       <Header />
       <Main />
-    </>
+    </div>
   )
 }
 
