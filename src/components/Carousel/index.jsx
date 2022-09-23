@@ -54,7 +54,6 @@ function Carousel({ apiList, selectedOption }) {
             >
               Lien
             </button>
-
           </div>
         </div>
       ))}

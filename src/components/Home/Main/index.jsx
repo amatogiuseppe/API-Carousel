@@ -3,6 +3,7 @@ import DynamicSelect from "../../DynamicSelect";
 import Carousel from "../../Carousel";
 
 function Main() {
+
   const [apiList, setApiList] = useState([]);
   const [categoriesList, setCategoriesList] = useState([]);
 
@@ -17,10 +18,7 @@ function Main() {
         setCategoriesList={setCategoriesList}
         setSelectedOption={setSelectedOption}
       />
-      <Carousel
-        apiList={apiList}
-        selectedOption={selectedOption}
-      />
+      <Carousel apiList={apiList} selectedOption={selectedOption} />
     </main>
   );
 }

@@ -39,8 +39,6 @@ function DynamicSelect({
     createCategoriesList();
   }, [apiList, categoriesList, setCategoriesList]);
 
-
-
   // Function that allows the selected category to be saved
   function handleOptionChange(e) {
     setSelectedOption(e.target.value);

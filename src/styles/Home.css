@@ -72,12 +72,6 @@ select {
   border-radius: 15px;
   padding: 20px;
   font-size: 16px;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 	cursor:pointer;
 }
 
@@ -112,7 +106,7 @@ section {
 
 .slide {
   width: 100%;
-  height: auto;
+  height: 350px;
   background-color: #e9e9ed;
   border-radius: 15px;
   padding: 50px;
@@ -169,6 +163,7 @@ button {
   position: absolute;
   bottom: -40px;
   right: -30px;
+  margin: 0 10px 10px 0;
 }
 
 /*========================================
